@@ -16,8 +16,20 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+				Slide 1
+				<pre><code data-trim data-line-numbers="|1">
+				print("hello world")
+				print("hello world")
+				</code></pre>
+				</section>
+				<section>
+				Slide 2
+				<pre><code data-trim>
+				print("hello world")
+				print("hello world")
+				</code></pre>
+				</section>
 			</div>
 		</div>
 
@@ -31,6 +43,7 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				transition: "none",
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
